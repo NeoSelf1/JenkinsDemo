@@ -58,7 +58,7 @@ public class SeleniumTest1Test {
         driver.navigate().to("https://www.google.com");
         Thread.sleep(1000);
         driver.get("https://www.selenium.dev/"); // driver.navigate().to("https://www.selenium.dev/");
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         driver.navigate().to("https://www.google.com");
         Thread.sleep(1000);
