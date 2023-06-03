@@ -64,7 +64,7 @@ public class SeleniumTest1Test {
         Thread.sleep(1000);
 
         driver.findElement((By.name("q"))).sendKeys("Hongik University", Keys.ENTER);
-        Thread.sleep(3000);
+        Thread.sleep(1000);
 
         driver.navigate().back();
         Thread.sleep(1000);
